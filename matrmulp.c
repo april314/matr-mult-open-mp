@@ -41,7 +41,7 @@ int main()
 
 		//создание матриц
 		matr1 = malloc(mat1_1d * sizeof(double*));
-		for (int i = 0; i < mat1_1d; i++) {
+		for (i = 0; i < mat1_1d; i++) {
 			matr1[i] = malloc(mat1_2d * sizeof(double));
 		}
 		matr2 = malloc(mat2_1d * sizeof(double*));
